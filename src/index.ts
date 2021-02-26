@@ -2,7 +2,7 @@
  * Get Handler - READY response.
  */
 
-import * as express from 'express';
+import express = require('express');
 import { Response } from '@leismore/response';
 
 function get_handler(_req:express.Request, res:express.Response):void
