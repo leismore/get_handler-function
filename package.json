@@ -1,6 +1,6 @@
 {
   "name": "@leismore/get_handler",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A general HTTP-GET request handler (echo) for Node.js & Express.js applications. It sends HTTP 204 (means *I am working*) for any HTTP-GET request.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -16,7 +16,7 @@
     "GET"
   ],
   "author": "Kyle Chine",
-  "license": "MIT",
+  "license": "AGPL-3.0-only",
   "bugs": {
     "url": "https://github.com/leismore/get_handler-function/issues"
   },
