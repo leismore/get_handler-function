@@ -14,14 +14,22 @@ Define a HTTP-GET handler to echo *I am working* message for testing purpose.
 
 When an API received a HTTP-GET request without any extra data, it should answer with HTTP 204 (means *I am working*).
 
+## Installation
+
+`npm install @leismore/get_handler`
+
+## Test
+
+`npm test`
+
 ## Examples
 
 ```typescript
-import * as express    from 'express';
+import express = require('express');
 import { get_handler } from '@leismore/get_handler';
 
 let app  = express();
-let port = 3000;
+let port = 8080;
 
 app.get('/', get_handler);
 
@@ -30,7 +38,7 @@ app.listen( port, () => console.log(`Example app listening on port ${port}!`) );
 
 ## License
 
-MIT
+GNU Affero General Public License v3.0
 
 ## Authors
 
