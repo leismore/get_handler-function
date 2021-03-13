@@ -3,7 +3,7 @@
  */
 
 import express = require('express');
-import { Response } from '@leismore/response';
+import { LMResponse as Response } from '@leismore/response';
 
 function get_handler(_req:express.Request, res:express.Response):void
 {
