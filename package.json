@@ -1,6 +1,6 @@
 {
   "name": "@leismore/get_handler",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "A general HTTP-GET request handler (echo) for Node.js & Express.js applications. It sends HTTP 204 (means *I am working*) for any HTTP-GET request.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
